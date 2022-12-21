@@ -20,5 +20,6 @@ const sendMessage = async (req, res) => {
 
 module.exports = {
     getConversation,
-    removeConversation
+    removeConversation,
+    sendMessage
 }

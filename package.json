@@ -1,0 +1,23 @@
+{
+  "name": "chatforce",
+  "version": "1.0.0",
+  "description": "- Server-side code for end-to-end encrypted instant messaging app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VukTodorovic/chatForce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VukTodorovic/chatForce/issues"
+  },
+  "homepage": "https://github.com/VukTodorovic/chatForce#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
