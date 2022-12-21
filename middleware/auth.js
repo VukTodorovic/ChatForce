@@ -1,8 +1,9 @@
 
 
 
-const authenticateUser = () => {
-    // TODO
+const authenticateUser = (req, res, next) => {
+    console.log('Authenticate user');
+    next();
 }
 
 
